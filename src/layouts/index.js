@@ -8,10 +8,10 @@ import 'modern-normalize'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Wipe EXIF"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Wipe EXIF from images' },
+        { name: 'keywords', content: 'wipe, exif' },
       ]}
     />
     <Header />
